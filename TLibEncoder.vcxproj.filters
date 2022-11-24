@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\NALwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SEIEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SEIwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SyntaxElementWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncBinCoderCABAC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncCavlc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncEntropy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncGOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncPic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncPreanalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncRateCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSbac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\WeightPredAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\AnnexBwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\NALwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SEIEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SEIwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\SyntaxElementWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncAnalyze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncBinCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncBinCoderCABAC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncCavlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncCu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncEntropy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncGOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncPic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncPreanalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncRateCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSbac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncSlice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\TEncTop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib\TLibEncoder\WeightPredAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B8DD7AAE-A79F-35D1-9A0D-EA6C5C39FAA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01D33F79-8BE4-3335-A48D-348CC513C889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

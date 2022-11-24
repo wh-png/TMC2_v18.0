@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\blk_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\config_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_tiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mbuffer_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\memalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mv_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\nalucommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\parsetcommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\resize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\annexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\biariencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cconv_yuv2rgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\configfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\conformance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\context_ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo_dist_mhyp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_gop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_seq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\filehandle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\fmo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\get_block_otf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_luma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image_mp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_chroma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ms_ssim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_snr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ssim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_luma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra16x16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra4x4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra_chroma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intrarefresh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lambda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\leaky_bucket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lencod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\list_reorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lln_mc_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loopFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter_mbaff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock_P444.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mb_access.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction_otf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_high.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_high_updated.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_highfast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_highloss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_low.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion_otf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast_otf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullsearch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_hme.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhexsmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mmco.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision_P8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_direct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nalu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\parset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_around.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_offsets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_2step.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_around.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_trellis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_around.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_trellis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_2step.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_around.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_trellis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\ratectl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_quadratic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm444.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm_low.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt_coding_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq_cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq_cavlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdpicdecision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\report.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\slice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\symbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8_H444.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\vlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\weighted_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_lms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mciter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mcprec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_periodic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\blk_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\config_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\ctx_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\enc_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\fast_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\ifunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\lagrangian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mb_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mbuffer_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mv_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\nalucommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\parsetcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\quant_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\resize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\vui_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\annexb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\biariencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cconv_yuv2rgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\configfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\conformance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\context_ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\contributors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\elements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo_dist_mhyp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_gop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_seq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\filehandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\fmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\get_block_otf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_chroma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ms_ssim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_snr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ssim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_luma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra16x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intrarefresh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lambda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\leaky_bucket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\list_reorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lln_mc_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock_p444.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction_otf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion_otf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast_otf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullsearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_hme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhexsmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mmco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision_p8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nalu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\parset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_adapt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_adapt_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_around.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\ratectl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_quadratic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm444.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt_coding_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\refbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\refbuf_otf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_lms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mciter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mcprec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_periodic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B8DD7AAE-A79F-35D1-9A0D-EA6C5C39FAA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01D33F79-8BE4-3335-A48D-348CC513C889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

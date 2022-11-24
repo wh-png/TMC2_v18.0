@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E25E07F-73D4-3795-AF0F-017AC8B012AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PccAppDecoder</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccAppDecoder.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccAppDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccAppDecoder.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccAppDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccAppDecoder.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccAppDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccAppDecoder.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccAppDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibMetrics.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibConformance.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibBitstreamCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibBitstreamReader.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\tbb_static.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibVideoDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\TLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\TLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\libmd5.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\ldecod.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\DecoderLib_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\CommonLib.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\libmd5_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibHevcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibAvcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibShvcParser.lib;ws2_32.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibColorConverter.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\PccLibBitstreamCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>tbb_debug.lib;tbb.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/lib/Debug/PccAppDecoder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/bin/Debug/PccAppDecoder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibMetrics.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibConformance.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibBitstreamCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibBitstreamReader.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\tbb_static.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibVideoDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\TLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\TLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\libmd5.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\ldecod.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\DecoderLib_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\CommonLib.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\libmd5_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibHevcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibAvcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibShvcParser.lib;ws2_32.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibColorConverter.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\PccLibBitstreamCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>tbb_debug.lib;tbb.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/lib/Release/PccAppDecoder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/bin/Release/PccAppDecoder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibMetrics.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibConformance.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibBitstreamCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibBitstreamReader.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\tbb_static.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibVideoDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\TLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\TLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\libmd5.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\ldecod.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\DecoderLib_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\CommonLib.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\libmd5_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibHevcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibAvcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibShvcParser.lib;ws2_32.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibColorConverter.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\PccLibBitstreamCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>tbb_debug.lib;tbb.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/lib/MinSizeRel/PccAppDecoder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/bin/MinSizeRel/PccAppDecoder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibDecoder\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibMetrics\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibConformance\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamCommon\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\lib\PccLibBitstreamReader\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\include;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\ldecod;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\.;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\..;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\CommonLib\x86;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibMetrics.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibConformance.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibBitstreamCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibBitstreamReader.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\tbb_static.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibVideoDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\TLibDecoder.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\TLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\libmd5.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\ldecod.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\DecoderLib_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\CommonLib.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\libmd5_vtm.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibHevcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibAvcParser.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibShvcParser.lib;ws2_32.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibColorConverter.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibCommon.lib;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\PccLibBitstreamCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>tbb_debug.lib;tbb.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/lib/RelWithDebInfo/PccAppDecoder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/bin/RelWithDebInfo/PccAppDecoder.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\app\PccAppDecoder\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/source/app/PccAppDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/source/app/PccAppDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/source/app/PccAppDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/source/app/PccAppDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/source/app/PccAppDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/source/app/PccAppDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/source/app/PccAppDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/source/app/PccAppDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite\program_options_lite.cpp" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\program-options-lite\program_options_lite.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\source\app\PccAppDecoder\PccAppDecoder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\ZERO_CHECK.vcxproj">
+      <Project>{F22909E7-32CF-3B66-881E-880557D4C24B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CommonLib.vcxproj">
+      <Project>{81F07FA2-36B9-3421-AE24-93E0967415C8}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\DecoderLib_vtm.vcxproj">
+      <Project>{C07FAA93-9576-308C-8C17-0067BCAB731A}</Project>
+      <Name>DecoderLib_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibAvcParser\PccLibAvcParser.vcxproj">
+      <Project>{5E7DDB59-BBC5-3000-809D-352174C230DA}</Project>
+      <Name>PccLibAvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibBitstreamCommon\PccLibBitstreamCommon.vcxproj">
+      <Project>{CE3E029E-9EFB-39EA-9D8C-C3180DFC93EC}</Project>
+      <Name>PccLibBitstreamCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibBitstreamReader\PccLibBitstreamReader.vcxproj">
+      <Project>{2756BBEB-A567-3161-8156-18810A703A25}</Project>
+      <Name>PccLibBitstreamReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibColorConverter\PccLibColorConverter.vcxproj">
+      <Project>{5677B655-BCAB-30CD-994D-B312D5A828AB}</Project>
+      <Name>PccLibColorConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibCommon\PccLibCommon.vcxproj">
+      <Project>{49DBC3EE-1EEF-38C3-8977-16528A18297D}</Project>
+      <Name>PccLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibConformance\PccLibConformance.vcxproj">
+      <Project>{377BE984-B80C-3BEE-AB25-6D272E580BB7}</Project>
+      <Name>PccLibConformance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibDecoder\PccLibDecoder.vcxproj">
+      <Project>{B72121A7-603D-3F09-94B5-1AC0382B4962}</Project>
+      <Name>PccLibDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibHevcParser\PccLibHevcParser.vcxproj">
+      <Project>{D880E705-C367-32CF-84A7-05CE71CE85FE}</Project>
+      <Name>PccLibHevcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibMetrics\PccLibMetrics.vcxproj">
+      <Project>{1874C657-1808-313A-B9E6-3603DC900DFB}</Project>
+      <Name>PccLibMetrics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibShvcParser\PccLibShvcParser.vcxproj">
+      <Project>{8D3FC407-8F0D-356B-B48A-9F8AFA97D320}</Project>
+      <Name>PccLibShvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibVideoDecoder\PccLibVideoDecoder.vcxproj">
+      <Project>{0CBE7BF7-E769-3F31-9968-374E4C58514F}</Project>
+      <Name>PccLibVideoDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibCommon.vcxproj">
+      <Project>{6941C649-5CFF-3455-BAA6-10CE7A66E294}</Project>
+      <Name>TLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibDecoder.vcxproj">
+      <Project>{83982DF5-05F4-3953-94DB-5A9CC3847CFA}</Project>
+      <Name>TLibDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\ldecod.vcxproj">
+      <Project>{EBD06D18-6B4F-3E98-ACFD-610315118276}</Project>
+      <Name>ldecod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\libmd5.vcxproj">
+      <Project>{192AB728-DA29-3BB3-9868-BD0CEC5201FD}</Project>
+      <Name>libmd5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\libmd5_vtm.vcxproj">
+      <Project>{8B9E1F28-C419-3F0D-8C74-5076455B0A78}</Project>
+      <Name>libmd5_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\tbb\tbb_static.vcxproj">
+      <Project>{85742658-3B59-3A58-865E-61D9EED5C15D}</Project>
+      <Name>tbb_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

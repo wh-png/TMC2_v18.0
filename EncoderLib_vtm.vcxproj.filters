@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\AQp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\BinEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\CABACWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncAdaptiveLoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncGOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncHRD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncLibCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncModeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncReshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncSampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncTemporalFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\InterSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\IntraSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\NALwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\RateCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\SEIEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\SEIwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\VLCWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\WeightPredAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\AQp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\Analyze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\AnnexBwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\BinEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\CABACWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncAdaptiveLoopFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncCfgParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncCu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncGOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncHRD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncLibCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncModeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncReshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncSampleAdaptiveOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncSlice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\EncTemporalFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\InterSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\IntraSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\NALwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\RateCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\SEIEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\SEIwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\VLCWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\VTM\source\Lib\EncoderLib\WeightPredAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B8DD7AAE-A79F-35D1-9A0D-EA6C5C39FAA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01D33F79-8BE4-3335-A48D-348CC513C889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

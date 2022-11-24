@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\src\tbb\win64-tbb-export.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\src\tbbmalloc\win64-tbbmalloc-export.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\e5fda554f387a3a2897fbe414a94b4ca\tbb_def_files.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\tbb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\tbb\CMakeFiles\tbb_def_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{816500F3-6CCE-30AD-B8FE-997562F53BC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01D33F79-8BE4-3335-A48D-348CC513C889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

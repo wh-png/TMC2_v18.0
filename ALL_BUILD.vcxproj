@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48684AE8-1C0F-3C1C-8CE4-D3606592D708}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\bin\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <OutDir>..\bin\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\bin\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <OutDir>..\bin\Release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\ZERO_CHECK.vcxproj">
+      <Project>{F22909E7-32CF-3B66-881E-880557D4C24B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CommonLib.vcxproj">
+      <Project>{81F07FA2-36B9-3421-AE24-93E0967415C8}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\DecoderLib_vtm.vcxproj">
+      <Project>{C07FAA93-9576-308C-8C17-0067BCAB731A}</Project>
+      <Name>DecoderLib_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\EncoderLib_vtm.vcxproj">
+      <Project>{53339616-6106-3BA7-B7B7-5C6B6E03E947}</Project>
+      <Name>EncoderLib_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppColorConverter\PccAppColorConverter.vcxproj">
+      <Project>{9CE64312-CEA3-371E-9AE3-444FD935B34D}</Project>
+      <Name>PccAppColorConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppConformance\PccAppConformance.vcxproj">
+      <Project>{8C2CC947-CD98-326F-BAE4-F12815EFBBE3}</Project>
+      <Name>PccAppConformance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppDecoder\PccAppDecoder.vcxproj">
+      <Project>{8E25E07F-73D4-3795-AF0F-017AC8B012AE}</Project>
+      <Name>PccAppDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppEncoder\PccAppEncoder.vcxproj">
+      <Project>{15FDFCEB-F34F-3205-9AA1-6008784E899E}</Project>
+      <Name>PccAppEncoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppMetrics\PccAppMetrics.vcxproj">
+      <Project>{9D97EAAC-2B52-3FDE-8BBE-80163439FC39}</Project>
+      <Name>PccAppMetrics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppNormalGenerator\PccAppNormalGenerator.vcxproj">
+      <Project>{483197AC-5480-38B2-B0C1-B9207FAD5DFA}</Project>
+      <Name>PccAppNormalGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppParser\PccAppParser.vcxproj">
+      <Project>{22E1A545-C5BD-3D0C-93D6-E1EA2AF3BE9E}</Project>
+      <Name>PccAppParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppVideoDecoder\PccAppVideoDecoder.vcxproj">
+      <Project>{1B394DB3-7C21-35C8-807D-5EC31F41123C}</Project>
+      <Name>PccAppVideoDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\app\PccAppVideoEncoder\PccAppVideoEncoder.vcxproj">
+      <Project>{54DEF402-FEAF-399F-B38C-CAB04DDB1EF0}</Project>
+      <Name>PccAppVideoEncoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibAvcParser\PccLibAvcParser.vcxproj">
+      <Project>{5E7DDB59-BBC5-3000-809D-352174C230DA}</Project>
+      <Name>PccLibAvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibBitstreamCommon\PccLibBitstreamCommon.vcxproj">
+      <Project>{CE3E029E-9EFB-39EA-9D8C-C3180DFC93EC}</Project>
+      <Name>PccLibBitstreamCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibBitstreamReader\PccLibBitstreamReader.vcxproj">
+      <Project>{2756BBEB-A567-3161-8156-18810A703A25}</Project>
+      <Name>PccLibBitstreamReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibBitstreamWriter\PccLibBitstreamWriter.vcxproj">
+      <Project>{F418C641-E902-3280-A747-399C95972A1B}</Project>
+      <Name>PccLibBitstreamWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibColorConverter\PccLibColorConverter.vcxproj">
+      <Project>{5677B655-BCAB-30CD-994D-B312D5A828AB}</Project>
+      <Name>PccLibColorConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibCommon\PccLibCommon.vcxproj">
+      <Project>{49DBC3EE-1EEF-38C3-8977-16528A18297D}</Project>
+      <Name>PccLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibConformance\PccLibConformance.vcxproj">
+      <Project>{377BE984-B80C-3BEE-AB25-6D272E580BB7}</Project>
+      <Name>PccLibConformance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibDecoder\PccLibDecoder.vcxproj">
+      <Project>{B72121A7-603D-3F09-94B5-1AC0382B4962}</Project>
+      <Name>PccLibDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibEncoder\PccLibEncoder.vcxproj">
+      <Project>{0ED7B75E-9189-3FA6-A92C-46769D481762}</Project>
+      <Name>PccLibEncoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibHevcParser\PccLibHevcParser.vcxproj">
+      <Project>{D880E705-C367-32CF-84A7-05CE71CE85FE}</Project>
+      <Name>PccLibHevcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibMetrics\PccLibMetrics.vcxproj">
+      <Project>{1874C657-1808-313A-B9E6-3603DC900DFB}</Project>
+      <Name>PccLibMetrics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\PccLibShvcParser\PccLibShvcParser.vcxproj">
+      <Project>{8D3FC407-8F0D-356B-B48A-9F8AFA97D320}</Project>
+      <Name>PccLibShvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibVideoDecoder\PccLibVideoDecoder.vcxproj">
+      <Project>{0CBE7BF7-E769-3F31-9968-374E4C58514F}</Project>
+      <Name>PccLibVideoDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\source\lib\PccLibVideoEncoder\PccLibVideoEncoder.vcxproj">
+      <Project>{2F964985-3B44-3E8B-8D39-8EDA99FBE170}</Project>
+      <Name>PccLibVideoEncoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibCommon.vcxproj">
+      <Project>{6941C649-5CFF-3455-BAA6-10CE7A66E294}</Project>
+      <Name>TLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibDecoder.vcxproj">
+      <Project>{83982DF5-05F4-3953-94DB-5A9CC3847CFA}</Project>
+      <Name>TLibDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibEncoder.vcxproj">
+      <Project>{F3BF43A0-BB41-3DAB-8AA2-EA686ED14D73}</Project>
+      <Name>TLibEncoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\TLibVideoIO.vcxproj">
+      <Project>{D7688772-9F80-35CA-A848-5821C024FE4A}</Project>
+      <Name>TLibVideoIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\Utilities_vtm.vcxproj">
+      <Project>{B1273446-9E3E-3373-A037-0D1F2EA3EE7A}</Project>
+      <Name>Utilities_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\ldecod.vcxproj">
+      <Project>{EBD06D18-6B4F-3E98-ACFD-610315118276}</Project>
+      <Name>ldecod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\lencod.vcxproj">
+      <Project>{BCEF9B5E-4AD1-3468-8EB6-9156A38A50BB}</Project>
+      <Name>lencod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\libmd5.vcxproj">
+      <Project>{192AB728-DA29-3BB3-9868-BD0CEC5201FD}</Project>
+      <Name>libmd5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\libmd5_vtm.vcxproj">
+      <Project>{8B9E1F28-C419-3F0D-8C74-5076455B0A78}</Project>
+      <Name>libmd5_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\dependencies\tbb\tbb_static.vcxproj">
+      <Project>{85742658-3B59-3A58-865E-61D9EED5C15D}</Project>
+      <Name>tbb_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

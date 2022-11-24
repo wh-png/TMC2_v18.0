@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BCEF9B5E-4AD1-3468-8EB6-9156A38A50BB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>lencod</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lencod.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lencod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lencod.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lencod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lencod.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lencod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lencod.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lencod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <IncludePaths>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\bin\cmake.exe -SD:/Tmc2_v18.0/mpeg-pcc-tmc2-master -BD:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build --check-stamp-file D:/Tmc2_v18.0/mpeg-pcc-tmc2-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wh807\Desktop\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\3.25.0\CMakeSystem.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\clang.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\hm.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\jm_lib.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\shm_app.cmake;D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\cmake\vtm.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\blk_prediction.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\blk_prediction.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\config_common.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\config_common.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\ctx_tables.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\distortion.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\enc_statistics.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\fast_memory.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\frame.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\ifunctions.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_io.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_io.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\img_process_types.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\input.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\input.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_image.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_raw.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_raw.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_tiff.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_tiff.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\io_video.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\lagrangian.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mb_access.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mbuffer_common.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mbuffer_common.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\memalloc.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\memalloc.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mv_prediction.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\mv_prediction.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\nalucommon.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\nalucommon.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\parsetcommon.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\parsetcommon.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\quant_params.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\report.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\resize.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\resize.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\transform.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\transform.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\typedefs.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\types.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\vui_params.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\win32.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\lib\lcommon\win32.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\annexb.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\annexb.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\biariencode.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\biariencode.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\block.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\block.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cabac.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cabac.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cconv_yuv2rgb.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\cconv_yuv2rgb.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\configfile.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\configfile.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\conformance.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\conformance.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\context_ini.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\context_ini.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\contributors.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\defines.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\elements.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo_dist_mhyp.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\errdo_dist_mhyp.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_gop.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_gop.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_seq.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\explicit_seq.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\filehandle.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\filehandle.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\fmo.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\fmo.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\get_block_otf.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\get_block_otf.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\global.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\header.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\header.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_distortion.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_distortion.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\hme_luma.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\image_mp.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_chroma.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_chroma.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ms_ssim.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ms_ssim.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_snr.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_snr.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ssim.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_dist_ssim.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_distortion.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_distortion.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_luma.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\img_luma.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra16x16.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra16x16.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra4x4.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra4x4.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra8x8.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra8x8.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intra_chroma.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intrarefresh.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\intrarefresh.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lambda.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lambda.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\leaky_bucket.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\leaky_bucket.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lencod.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\list_reorder.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\list_reorder.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lln_mc_prediction.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\lln_mc_prediction.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loopFilter.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter_mbaff.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\loop_filter_normal.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock_P444.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\macroblock_p444.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mb_access.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mbuffer.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mbuffer.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction_otf.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mc_prediction_otf.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_common.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_common.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_distortion.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_distortion.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_high.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_high_updated.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_highfast.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_highloss.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\md_low.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion_otf.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_distortion_otf.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_common.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_common.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_int.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_int.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_epzs_sub.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast_otf.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullfast_otf.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullsearch.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_fullsearch.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_hme.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_hme.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhex.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhex.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhexsmp.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\me_umhexsmp.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mmco.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mmco.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision_P8x8.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mode_decision_p8x8.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_direct.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_search.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\mv_search.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nal.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nal.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nalu.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\nalu.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\output.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\output.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\params.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\parset.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\parset.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_adapt.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_adapt_types.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\pred_struct_types.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_around.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_around.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_matrix.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_matrix.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_offsets.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\q_offsets.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_2step.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_around.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_normal.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant4x4_trellis.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_around.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_normal.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quant8x8_trellis.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_2step.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_around.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_normal.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\quantChroma_trellis.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\ratectl.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\ratectl.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_quadratic.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_quadratic.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rc_types.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm444.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm444.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rd_intra_jm_low.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt_coding_state.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdopt_coding_state.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq_cabac.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdoq_cavlc.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rdpicdecision.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\refbuf.h" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\refbuf_otf.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\report.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rtp.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\rtp.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\sei.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\sei.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\slice.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\slice.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\symbol.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\symbol.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\transform8x8_H444.c" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\vlc.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\vlc.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\weighted_prediction.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_lms.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_lms.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mciter.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mciter.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mcprec.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_mcprec.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_periodic.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_periodic.h" />
+    <ClCompile Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_random.c" />
+    <ClInclude Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\dependencies\jm19.0_lib\source\app\lencod\wp_random.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Tmc2_v18.0\mpeg-pcc-tmc2-master\build\ZERO_CHECK.vcxproj">
+      <Project>{F22909E7-32CF-3B66-881E-880557D4C24B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>
